@@ -1,60 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="105.825" tests="2" skipped="0" failures="2" errors="0" timestamp="2025-05-13T02:03:20.742640900Z">
-<testcase classname="Search for a channel" name="User searches for the channel which is valid and invalid channel names - #1.2" time="105.462">
-<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device offline
- 
-Host info: host: 'DIVYAPC', ip: '10.0.0.14'
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
-Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}">
-<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device offline
- 
-Host info: host: 'DIVYAPC', ip: '10.0.0.14'
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
-Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:124)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:135)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:153)
-	at hooks.Hooks.setUp(Hooks.java:47)
-]]>
-</failure>
+<testsuite name="Cucumber" time="27.448" tests="2" skipped="0" failures="2" errors="0" timestamp="2025-05-13T17:17:57.147488200Z">
+<testcase classname="Search for a channel" name="User searches for the channel which is valid and invalid channel names - #1.2" time="27.008">
+<failure/>
 <system-out><![CDATA[
-Given User launches the emulator and SkyTube app............................skipped
+Given User launches the emulator and SkyTube app............................undefined
 When User enter a "chuchu" to search in search field........................skipped
 Then User sees the searched channel.........................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Search for a channel" name="User searches for the channel which is valid and invalid channel names - #1.1" time="105.463">
-<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device offline
- 
+<testcase classname="Search for a channel" name="User searches for the channel which is valid and invalid channel names - #1.1" time="19.09">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. 
 Host info: host: 'DIVYAPC', ip: '10.0.0.14'
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
-Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}">
-<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device offline
- 
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, platformName: ANDROID}">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. 
 Host info: host: 'DIVYAPC', ip: '10.0.0.14'
 Build info: version: '4.32.0', revision: 'd17c8aa950'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
-Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:uiautomator2ServerInstallTimeout: 60000, platformName: ANDROID}
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
@@ -67,7 +35,7 @@ Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: fr
 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:124)
 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:135)
 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:153)
-	at hooks.Hooks.setUp(Hooks.java:47)
+	at hooks.Hooks.setUp(Hooks.java:48)
 ]]>
 </failure>
 <system-out><![CDATA[

@@ -30,8 +30,9 @@ public class Hooks {
         options.setAutomationName(ConfigReader.getProperty("automationName"));
         options.setAppPackage(ConfigReader.getProperty("appPackage"));
         options.setAppActivity(ConfigReader.getProperty("appActivity"));
+        options.setCapability("uiautomator2ServerInstallTimeout", 60000);
         options.setApp(System.getProperty("user.dir") + "/" + ConfigReader.getProperty("appPath"));
-
+        System.out.println("App Path: " + System.getProperty("user.dir") + "/" + ConfigReader.getProperty("appPath"));
         //driver = new AndroidDriver(new URI(ConfigReader.getProperty("appiumServerURL")).toURL(), options);
         //String appiumServerURL = "http://127.0.0.1:4723/wd/hub";
         //driver = new AndroidDriver(new URL(appiumServerURL), capabilities);
