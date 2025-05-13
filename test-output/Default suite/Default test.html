@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 12 22:03:19 EDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106793 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for the channel which is valid and invalid channel names", "Search for a channel"</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &apos;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&apos;&apos; exited with code 1&apos;; Command output: adb.exe: device offline
+ 
+Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:124)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:135)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:153)
+	at hooks.Hooks.setUp(Hooks.java:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2127273299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2127273299'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &apos;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&apos;&apos; exited with code 1&apos;; Command output: adb.exe: device offline
+ 
+Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:124)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:135)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:153)
+	at hooks.Hooks.setUp(Hooks.java:47)
+</pre></div></td>
+<td>105</td>
+<td>runner.TestRunner@186f8716</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for the channel which is valid and invalid channel names", "Search for a channel"</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &apos;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&apos;&apos; exited with code 1&apos;; Command output: adb.exe: device offline
+ 
+Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:124)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:135)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:153)
+	at hooks.Hooks.setUp(Hooks.java:47)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1368389332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1368389332'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;C:\\Users\\mktem\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell &apos;settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy&apos;&apos; exited with code 1&apos;; Command output: adb.exe: device offline
+ 
+Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:appActivity: free.rm.skytube.gui.activit..., appium:appPackage: free.rm.skytube.oss, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:124)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:135)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:153)
+	at hooks.Hooks.setUp(Hooks.java:47)
+</pre></div></td>
+<td>105</td>
+<td>runner.TestRunner@186f8716</td></tr>
+</table><p>
+</body>
+</html>

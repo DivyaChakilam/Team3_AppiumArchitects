@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="4.032" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects\target\test-classes;C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects\target\classes;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\mktem\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mktem\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mktem\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mktem\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\mktem\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\mktem\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\mktem\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mktem\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mktem\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mktem\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mktem\.m2\repository\io\appium\java-client\9.4.0\java-client-9.4.0.jar;C:\Users\mktem\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\mktem\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\mktem\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-testng\7.22.1\cucumber-testng-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.1\cucumber-picocontainer-7.22.1.jar;C:\Users\mktem\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\mktem\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\mktem\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\mktem\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\mktem\AppData\Local\Temp\surefire4533079405019164342\surefirebooter-20250512145639575_3.jar C:\Users\mktem\AppData\Local\Temp\surefire4533079405019164342 2025-05-12T14-56-37_700-jvmRun1 surefire-20250512145639575_1tmp surefire_0-20250512145639575_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects\target\test-classes;C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects\target\classes;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\mktem\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mktem\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mktem\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mktem\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\mktem\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\mktem\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\mktem\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\mktem\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;C:\Users\mktem\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mktem\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\mktem\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mktem\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mktem\.m2\repository\io\appium\java-client\9.4.0\java-client-9.4.0.jar;C:\Users\mktem\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\mktem\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-java\7.22.1\cucumber-java-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-core\7.22.1\cucumber-core-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-gherkin\7.22.1\cucumber-gherkin-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.1\cucumber-gherkin-messages-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\mktem\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\datatable\7.22.1\datatable-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-plugin\7.22.1\cucumber-plugin-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\docstring\7.22.1\docstring-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\mktem\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-testng\7.22.1\cucumber-testng-7.22.1.jar;C:\Users\mktem\.m2\repository\io\cucumber\cucumber-picocontainer\7.22.1\cucumber-picocontainer-7.22.1.jar;C:\Users\mktem\.m2\repository\org\picocontainer\picocontainer\2.15.2\picocontainer-2.15.2.jar;C:\Users\mktem\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\mktem\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\mktem\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mktem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mktem\AppData\Local\Temp\surefire4533079405019164342\surefirebooter-20250512145639575_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="mktem"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mktem\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mktem\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/mktem/Downloads/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin/server;C:/Users/mktem/Downloads/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\mktem\AppData\Roaming\npm;C:\Program Files\allure-2.32.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Docker\Docker;C:\Program Files\Java\jdk-21\\bin;C:\Users\mktem\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\mktem\AppData\Local\Android\Sdk\emulator;C:\Users\mktem\AppData\Local\Android\Sdk\tools;C:\Users\mktem\AppData\Local\Android\Sdk\platform-tools;C:\Users\mktem\AppData\Local\Android\Sdk\tools\bin;C:\Users\mktem\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\mktem\AppData\Local\Microsoft\WindowsApps;C:\Users\mktem\AppData\Local\GitHubDesktop\bin;C:\Users\mktem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mktem\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\mktem\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\mktem\Downloads\eclipse-java-2024-12-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User searches for the channel which is valid and invalid channel names&quot;, &quot;Search for a channel&quot;](2)" classname="runner.TestRunner" time="2.207">
+    <failure message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk&apos; does not exist or is not accessible &#10;Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]&#10;Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk' does not exist or is not accessible 
+Host info: host: 'DIVYAPC', ip: '10.0.0.14'
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:113)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at hooks.Hooks.setUp(Hooks.java:30)
+]]></failure>
+    <system-out><![CDATA[
+@searchChannel
+Scenario Outline: User searches for the channel which is valid and invalid channel names # src/test/resources/features/SearchChannel.feature:14
+
+@searchChannel
+Scenario Outline: User searches for the channel which is valid and invalid channel names # src/test/resources/features/SearchChannel.feature:15
+      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk' does not exist or is not accessible 
+      Host info: host: 'DIVYAPC', ip: '10.0.0.14'
+      Build info: version: '4.32.0', revision: 'd17c8aa950'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+      Driver info: io.appium.java_client.android.AndroidDriver
+      Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}]}]
+      Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+      	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+      	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+      	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+      	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:113)
+      	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+      	at hooks.Hooks.setUp(Hooks.java:30)
+      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk' does not exist or is not accessible 
+      Host info: host: 'DIVYAPC', ip: '10.0.0.14'
+      Build info: version: '4.32.0', revision: 'd17c8aa950'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+      Driver info: io.appium.java_client.android.AndroidDriver
+      Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}]}]
+      Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, platformName: ANDROID}
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+      	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+      	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+      	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+      	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:113)
+      	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+      	at hooks.Hooks.setUp(Hooks.java:30)
+  Given User launches the emulator and SkyTube app
+  Given User launches the emulator and SkyTube app
+  When User enter a "chuchu tv" to search in search field
+  When User enter a "chuchu" to search in search field
+  Then User sees the searched channel
+  Then User sees the searched channel
+14:56:44.021 [TestNG-PoolService-1] ERROR utilities.LogUtil - Test failed: User searches for the channel which is valid and invalid channel names
+14:56:44.021 [TestNG-PoolService-2] ERROR utilities.LogUtil - Test failed: User searches for the channel which is valid and invalid channel names
+      java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "this.driver" is null
+      	at hooks.Hooks.tearDown(Hooks.java:43)
+      java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "this.driver" is null
+      	at hooks.Hooks.tearDown(Hooks.java:43)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for the channel which is valid and invalid channel names&quot;, &quot;Search for a channel&quot;](2)" classname="runner.TestRunner" time="2.21">
+    <failure message="Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk&apos; does not exist or is not accessible &#10;Host info: host: &apos;DIVYAPC&apos;, ip: &apos;10.0.0.14&apos;&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}]}]&#10;Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\mktem\eclipse-workspace\Team3_AppiumArchitects/apps/Android.Mobile.skytube.oss_55.apk' does not exist or is not accessible 
+Host info: host: 'DIVYAPC', ip: '10.0.0.14'
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}]}]
+Capabilities {appium:app: C:\Users\mktem\eclipse-work..., appium:automationName: UIAutomator2, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:113)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at hooks.Hooks.setUp(Hooks.java:30)
+]]></failure>
+  </testcase>
+</testsuite>
